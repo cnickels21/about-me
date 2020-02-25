@@ -2,7 +2,7 @@
 
 var myDog = function () {
     var pets = prompt('Do I have any pets?').toLowerCase();
-    console.log('Pets at home: yes');
+    // console.log('Pets at home: yes');
     while (pets === '') {
         pets = prompt('Please answer the question.');
     }
@@ -22,7 +22,7 @@ myDog();
 
 var outsideAmerica = function () {
     var travel = prompt('Have I traveled internationally?').toLowerCase();
-    console.log('Been outside of America: yes');
+    // console.log('Been outside of America: yes');
     while (travel === '') {
         travel = prompt('Please answer the question.');
     }
@@ -42,7 +42,7 @@ outsideAmerica();
 
 var music = function () {
     var saxophone = prompt('Do I play any musical instruments?').toLowerCase();
-    console.log('Plays music: yes');
+    // console.log('Plays music: yes');
     while (saxophone === '') {
         saxophone = prompt('Please answer the question.');
     }
@@ -62,7 +62,7 @@ music();
 
 var birth = function () {
     var home = prompt('Was I born in Wisconsin?').toLowerCase();
-    console.log('Born in WI: no');
+    // console.log('Born in WI: no');
     while (home === '') {
         home = prompt('Please answer the question.');
     }
@@ -82,7 +82,7 @@ birth();
 
 var myFuture = function () {
     var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
-    console.log('Staying in Iowa: no');
+    // console.log('Staying in Iowa: no');
     while (whatNext === '') {
         whatNext = prompt('Please answer the question.');
     }
