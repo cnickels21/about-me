@@ -4,7 +4,7 @@ var myDog = function () {
     var pets = prompt('Do I have any pets?').toLowerCase();
     // console.log('Pets at home: yes');
     while (pets === '') {
-        pets = prompt('Please answer the question.');
+        pets = prompt('Please answer the question.').toLowerCase();
     }
     while (pets !== '') {
         if (pets === 'yes') {
@@ -14,7 +14,7 @@ var myDog = function () {
             alert('I\'m sorry, I do have a pet.');
             break;
         } else {
-            pets = prompt('Please answer yes or no.');
+            pets = prompt('Please answer yes or no.').toLowerCase();
         }
     }
 }
@@ -24,7 +24,7 @@ var outsideAmerica = function () {
     var travel = prompt('Have I traveled internationally?').toLowerCase();
     // console.log('Been outside of America: yes');
     while (travel === '') {
-        travel = prompt('Please answer the question.');
+        travel = prompt('Please answer the question.').toLowerCase();
     }
     while (travel !== '') {
         if (travel === 'yes') {
@@ -34,7 +34,7 @@ var outsideAmerica = function () {
             alert('I have. I love to travel!');
             break;
         } else {
-            travel = prompt('Please answer yes or no.');
+            travel = prompt('Please answer yes or no.').toLowerCase();
         }
     }
 }
@@ -44,7 +44,7 @@ var music = function () {
     var saxophone = prompt('Do I play any musical instruments?').toLowerCase();
     // console.log('Plays music: yes');
     while (saxophone === '') {
-        saxophone = prompt('Please answer the question.');
+        saxophone = prompt('Please answer the question.').toLowerCase();
     }
     while (saxophone !== '') {
         if (saxophone === 'yes') {
@@ -54,7 +54,7 @@ var music = function () {
             alert('I do! I play saxophone.');
             break;
         } else {
-            saxophone = prompt('Please answer yes or no.');
+            saxophone = prompt('Please answer yes or no.').toLowerCase();
         }
     }
 }
@@ -64,7 +64,7 @@ var birth = function () {
     var home = prompt('Was I born in Wisconsin?').toLowerCase();
     // console.log('Born in WI: no');
     while (home === '') {
-        home = prompt('Please answer the question.');
+        home = prompt('Please answer the question.').toLowerCase();
     }
     while (home !== '') {
         if (home === 'yes') {
@@ -74,7 +74,7 @@ var birth = function () {
             alert('Correct! I was born in Colorado.');
             break;
         } else {
-            home = prompt('Please answer yes or no.');
+            home = prompt('Please answer yes or no.').toLowerCase();
         }
     }
 }
@@ -84,7 +84,7 @@ var myFuture = function () {
     var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
     // console.log('Staying in Iowa: no');
     while (whatNext === '') {
-        whatNext = prompt('Please answer the question.');
+        whatNext = prompt('Please answer the question.').toLowerCase();
     }
     while (whatNext !== '') {
         if (whatNext === 'yes') {
@@ -94,7 +94,7 @@ var myFuture = function () {
             alert('Correct! Iowa is a stepping stone for me.');
             break;
         } else {
-            whatNext = prompt('Please answer yes or no.');
+            whatNext = prompt('Please answer yes or no.').toLowerCase();
         }
     }
 }
