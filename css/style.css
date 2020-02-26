@@ -12,6 +12,23 @@ header {
     padding: 5px 0px 5px 0px;
 }
 
+nav {
+    font-size: 22px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+header a {
+    padding-right: 15px;
+}
+
 section {
     background-color: indigo;
     padding: 0px 10px 10px 10px;
@@ -30,13 +47,13 @@ p {
     padding-bottom: 10px;
 }
 
-a {
+p a {
     font-style: italic;
     color: hotpink;
     text-decoration: none;
 }
 
-  a:hover {
+  p a:hover {
     font-size: 22px;
     color: red
   }
