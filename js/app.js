@@ -1,6 +1,5 @@
 'use strict';
 
-var myDog = function () {
     var pets = prompt('Do I have any pets?').toLowerCase();
     // console.log('Pets at home: yes');
     while (pets === '') {
@@ -17,10 +16,7 @@ var myDog = function () {
             pets = prompt('Please answer yes or no.').toLowerCase();
         }
     }
-}
-myDog();
 
-var outsideAmerica = function () {
     var travel = prompt('Have I traveled internationally?').toLowerCase();
     // console.log('Been outside of America: yes');
     while (travel === '') {
@@ -37,10 +33,7 @@ var outsideAmerica = function () {
             travel = prompt('Please answer yes or no.').toLowerCase();
         }
     }
-}
-outsideAmerica();
 
-var music = function () {
     var saxophone = prompt('Do I play any musical instruments?').toLowerCase();
     // console.log('Plays music: yes');
     while (saxophone === '') {
@@ -57,10 +50,7 @@ var music = function () {
             saxophone = prompt('Please answer yes or no.').toLowerCase();
         }
     }
-}
-music();
 
-var birth = function () {
     var home = prompt('Was I born in Wisconsin?').toLowerCase();
     // console.log('Born in WI: no');
     while (home === '') {
@@ -77,10 +67,7 @@ var birth = function () {
             home = prompt('Please answer yes or no.').toLowerCase();
         }
     }
-}
-birth();
 
-var myFuture = function () {
     var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
     // console.log('Staying in Iowa: no');
     while (whatNext === '') {
@@ -97,8 +84,6 @@ var myFuture = function () {
             whatNext = prompt('Please answer yes or no.').toLowerCase();
         }
     }
-}
-myFuture();
 
 var userName = prompt('What is your preferred name?')
 alert('Hello ' + userName + ' and welcome to the journey I like to call \'Chasin\' Chase\'!')

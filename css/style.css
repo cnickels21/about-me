@@ -33,6 +33,8 @@ section {
     background-color: indigo;
     padding: 0px 10px 10px 10px;
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
 
 h3 {
