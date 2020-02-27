@@ -10,7 +10,7 @@ while (pets === '') {
 while (pets !== '') {
     if (pets === 'yes') {
         alert('Correct! I have a dog.');
-        score = score + 1;
+        score++;
         break;
     } else if (pets === 'no') {
         alert('I\'m sorry, I do have a pet.');
@@ -28,7 +28,7 @@ while (travel === '') {
 while (travel !== '') {
     if (travel === 'yes') {
         alert('Correct! I have been to Germany and Ireland.');
-        score = score + 1;
+        score++;
         break;
     } else if (travel === 'no') {
         alert('I have. I love to travel!');
@@ -46,7 +46,7 @@ while (saxophone === '') {
 while (saxophone !== '') {
     if (saxophone === 'yes') {
         alert('Correct! I play saxophone.');
-        score = score + 1;
+        score++;
         break;
     } else if (saxophone === 'no') {
         alert('I do! I play saxophone.');
@@ -67,7 +67,7 @@ while (home !== '') {
         break;
     } else if (home === 'no') {
         alert('Correct! I was born in Colorado.');
-        score = score + 1;
+        score++;
         break;
     } else {
         home = prompt('Please answer yes or no.').toLowerCase();
@@ -85,7 +85,7 @@ while (whatNext !== '') {
         break;
     } else if (whatNext === 'no') {
         alert('Correct! Iowa is a stepping stone for me.');
-        score = score + 1;
+        score++;
         break;
     } else {
         whatNext = prompt('Please answer yes or no.').toLowerCase();
@@ -106,7 +106,7 @@ for (var i = 0; i < 5; i++) {
                 band = prompt('Too low! Try again.');
             } else {
                 alert('Correct! Two guitars, a drummer, and bass.');
-                score = score + 1;
+                score++;
                 break;
             }
         }
@@ -132,7 +132,7 @@ for (var i = 0; i < 6; i++) {
         }
     }
     if (isValid) {
-        score = score + 1;
+        score++;
         break;
     }
 }

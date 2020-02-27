@@ -64,13 +64,42 @@ h4 {
     color: rgb(20, 167, 20);
 }
 
+ div {
+    margin: 0 auto;
+    width: 80%;
+
+ }
+
 section li {
     color: yellowgreen;
 }
 
+/* section ol {
+    float: left;
+    /* display: inline; */
+    /* width: 40%;
+} */
+
 section ul {
     list-style-type: none;
+    /* float: right; */
+    /* display: inline; */
+    /* width: 40%; */
+} 
+
+/* .floatleft {
+    position: absolute;
+    float: left;
+    width: 40%;
+    text-align: left;
 }
+
+.floatright {
+    position: absolute;
+    float: right;
+    width: 40%;
+    text-align: right;
+} */
 
 footer {
     text-align: center;
