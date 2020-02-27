@@ -68,23 +68,27 @@ function question3(){
 
 question3();
 
-var home = prompt('Was I born in Wisconsin?').toLowerCase();
-// console.log('Born in WI: no');
-while (home === '') {
-  home = prompt('Please answer the question.').toLowerCase();
-}
-while (home !== '') {
-  if (home === 'yes') {
-    alert('Nope! I was born in Colorado.');
-    break;
-  } else if (home === 'no') {
-    alert('Correct! I was born in Colorado.');
-    score++;
-    break;
-  } else {
-    home = prompt('Please answer yes or no.').toLowerCase();
+function question4(){
+  var home = prompt('Was I born in Wisconsin?').toLowerCase();
+  // console.log('Born in WI: no');
+  while (home === '') {
+    home = prompt('Please answer the question.').toLowerCase();
+  }
+  while (home !== '') {
+    if (home === 'yes') {
+      alert('Nope! I was born in Colorado.');
+      break;
+    } else if (home === 'no') {
+      alert('Correct! I was born in Colorado.');
+      score++;
+      break;
+    } else {
+      home = prompt('Please answer yes or no.').toLowerCase();
+    }
   }
 }
+
+question4();
 
 var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
 // console.log('Staying in Iowa: no');
