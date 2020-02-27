@@ -112,53 +112,61 @@ function question5(){
 
 question5();
 
-var band;
-// console.log('Band members: 4');
-for (var i = 0; i < 5; i++) {
-  if (!band) {
-    band = prompt('How many members are in my band?');
-  } else {
-    if (!isNaN(Number(band))) {
-      console.log(!isNaN(Number(band)));
-      if (band > 4) {
-        band = prompt('That is too many. Try again!');
-      } else if (band < 4) {
-        band = prompt('Too low! Try again.');
-      } else {
-        alert('Correct! Two guitars, a drummer, and bass.');
-        score++;
-        break;
+function question6(){
+  var band;
+  // console.log('Band members: 4');
+  for (var i = 0; i < 5; i++) {
+    if (!band) {
+      band = prompt('How many members are in my band?');
+    } else {
+      if (!isNaN(Number(band))) {
+        console.log(!isNaN(Number(band)));
+        if (band > 4) {
+          band = prompt('That is too many. Try again!');
+        } else if (band < 4) {
+          band = prompt('Too low! Try again.');
+        } else {
+          alert('Correct! Two guitars, a drummer, and bass.');
+          score++;
+          break;
+        }
+      }
+      else {
+        alert('Answer with a number please.');
+        band = null;
       }
     }
-    else {
-      alert('Answer with a number please.');
-      band = null;
-    }
+  }
+  if (band != 4) {
+    console.log(band);
+    alert('There are four people in my band.');
   }
 }
-if (band != 4) {
-  console.log(band);
-  alert('There are four people in my band.');
-}
+question6();
 
-var answers = ['maine', 'florida', 'germany', 'ireland', 'colorado', 'holland'];
-// console.log('I have been to: maine, florida, colorado, germany, ireland, and holland.')
-for (var i = 0; i < 6; i++) {
-  var isValid = false;
-  var places = prompt('Where is somewhere I have travelled to?').toLowerCase();
-  for (var j = 0; j < answers.length; j++) {
-    if (places === answers[j]) {
-      isValid = true;
+function question7(){
+  var answers = ['maine', 'florida', 'germany', 'ireland', 'colorado', 'holland'];
+  // console.log('I have been to: maine, florida, colorado, germany, ireland, and holland.')
+  for (var i = 0; i < 6; i++) {
+    var isValid = false;
+    var places = prompt('Where is somewhere I have travelled to?').toLowerCase();
+    for (var j = 0; j < answers.length; j++) {
+      if (places === answers[j]) {
+        isValid = true;
+      }
+    }
+    if (isValid) {
+      score++;
+      break;
     }
   }
-  if (isValid) {
-    score++;
-    break;
-  }
 }
+question7();
+
 var output = alert('Yes! I have been to Maine, Florida, Colorado, Ireland, Germany, and Holland.');
+
 
 alert('Thank you for your time. Your total score is ' + score + ' out of 7!');
 
-var userName = prompt('What is your preferred name?')
-alert('Hello ' + userName + ' and welcome to the journey I like to call \'Chasin\' Chase\'!')
+var userName = prompt('What is your preferred name?');
+alert('Hello ' + userName + ' and welcome to the journey I like to call \'Chasin\' Chase\'!');
