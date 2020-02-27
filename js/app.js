@@ -129,12 +129,12 @@ for (var i = 0; i < 6; i++) {
     for (var j = 0; j < answers.length; j++) {
         if (places === answers[j]) {
             isValid = true;
-        } 
+        }
     }
     if (isValid) {
         score = score + 1;
         break;
-    } 
+    }
 }
 var output = alert('Yes! I have been to Maine, Florida, Colorado, Ireland, Germany, and Holland.');
 

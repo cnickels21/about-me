@@ -20,7 +20,7 @@ ul {
     padding-left: 0px;
 }
 
-ul li {
+nav li {
     display: inline;
     padding-right: 15px;
 }
@@ -55,15 +55,23 @@ p a {
     text-decoration: none;
 }
 
-  p a:hover {
+p a:hover {
     font-size: 22px;
     color: red
-  }
+}
 
-  footer {
-      text-align: center;
-      background-color: darkred;
-      color: orange;
-      padding: 10px 0px 10px 0px;
-      margin-top: 20px;
-  }
+h4 {
+    color: rgb(20, 167, 20);
+}
+
+section li {
+    color: yellowgreen;
+}
+
+footer {
+    text-align: center;
+    background-color: darkred;
+    color: orange;
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+}
