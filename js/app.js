@@ -90,23 +90,27 @@ function question4(){
 
 question4();
 
-var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
-// console.log('Staying in Iowa: no');
-while (whatNext === '') {
-  whatNext = prompt('Please answer the question.').toLowerCase();
-}
-while (whatNext !== '') {
-  if (whatNext === 'yes') {
-    alert('Nope! I want to move to Washington next.');
-    break;
-  } else if (whatNext === 'no') {
-    alert('Correct! Iowa is a stepping stone for me.');
-    score++;
-    break;
-  } else {
-    whatNext = prompt('Please answer yes or no.').toLowerCase();
+function question5(){
+  var whatNext = prompt('Will I stay in Iowa forever?').toLowerCase();
+  // console.log('Staying in Iowa: no');
+  while (whatNext === '') {
+    whatNext = prompt('Please answer the question.').toLowerCase();
+  }
+  while (whatNext !== '') {
+    if (whatNext === 'yes') {
+      alert('Nope! I want to move to Washington next.');
+      break;
+    } else if (whatNext === 'no') {
+      alert('Correct! Iowa is a stepping stone for me.');
+      score++;
+      break;
+    } else {
+      whatNext = prompt('Please answer yes or no.').toLowerCase();
+    }
   }
 }
+
+question5();
 
 var band;
 // console.log('Band members: 4');
