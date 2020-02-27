@@ -46,23 +46,27 @@ function question2(){
 
 question2();
 
-var saxophone = prompt('Do I play any musical instruments?').toLowerCase();
-// console.log('Plays music: yes');
-while (saxophone === '') {
-  saxophone = prompt('Please answer the question.').toLowerCase();
-}
-while (saxophone !== '') {
-  if (saxophone === 'yes') {
-    alert('Correct! I play saxophone.');
-    score++;
-    break;
-  } else if (saxophone === 'no') {
-    alert('I do! I play saxophone.');
-    break;
-  } else {
-    saxophone = prompt('Please answer yes or no.').toLowerCase();
+function question3(){
+  var saxophone = prompt('Do I play any musical instruments?').toLowerCase();
+  // console.log('Plays music: yes');
+  while (saxophone === '') {
+    saxophone = prompt('Please answer the question.').toLowerCase();
+  }
+  while (saxophone !== '') {
+    if (saxophone === 'yes') {
+      alert('Correct! I play saxophone.');
+      score++;
+      break;
+    } else if (saxophone === 'no') {
+      alert('I do! I play saxophone.');
+      break;
+    } else {
+      saxophone = prompt('Please answer yes or no.').toLowerCase();
+    }
   }
 }
+
+question3();
 
 var home = prompt('Was I born in Wisconsin?').toLowerCase();
 // console.log('Born in WI: no');
