@@ -1,15 +1,36 @@
+/*
+
+css-tricks offered solutions
+
+html { 
+    background: url("img/apollo.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
 body {
-    margin: 0 auto;
+    margin: 20px auto;
     width: 1080px;
-    background-color: rgba(0, 0, 0, 0.664);
+    /* background-color: rgba(0, 0, 0, 0.664); */
+    background-image: url("../img/apollo.jpg");
+    background-size: cover;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
+
+/* .image-container {
+    position: relative;
+} */
 
 header {
     text-align: center;
-    font-size: 42px;
+    font-size: 4em;
     color: rgb(20, 167, 20);
     background-color: rgb(77, 6, 77);
     padding: 5px 0px 5px 0px;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -29,19 +50,24 @@ header a {
     padding-right: 15px;
 }
 
-section {
+article {
+    float: left;
+    width: 65%;
+    margin-right: 10px;
+}
+
+article > p, h3 {
     background-color: indigo;
-    padding: 0px 10px 10px 10px;
+    padding: 10px;
     text-align: center;
-    width: 75%;
-    margin: 0 auto;
 }
 
 h3 {
     font-size: 32px;
     text-decoration: underline;
     color: rgb(20, 167, 20);
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 30px;
 }
 
 p {
@@ -60,46 +86,36 @@ p a:hover {
     color: red
 }
 
+aside {
+    float: right;
+    width: 30%;
+    text-align: right;
+    
+}
+
 h4 {
     color: rgb(20, 167, 20);
 }
 
- div {
-    margin: 0 auto;
-    width: 80%;
-
- }
+section {
+   
+}
 
 section li {
     color: yellowgreen;
 }
 
-/* section ol {
-    float: left;
-    /* display: inline; */
-    /* width: 40%;
-} */
+section ol {
+    background-color: indigo;
+    padding: 10px;
+}
 
 section ul {
     list-style-type: none;
-    /* float: right; */
-    /* display: inline; */
-    /* width: 40%; */
+    margin-top: 20px;
+    background-color: indigo;
+    padding: 10px;
 } 
-
-/* .floatleft {
-    position: absolute;
-    float: left;
-    width: 40%;
-    text-align: left;
-}
-
-.floatright {
-    position: absolute;
-    float: right;
-    width: 40%;
-    text-align: right;
-} */
 
 footer {
     text-align: center;
@@ -107,4 +123,8 @@ footer {
     color: orange;
     padding: 10px 0px 10px 0px;
     margin-top: 20px;
+    position: fixed;
+    left: 25%;
+    bottom: 0;
+    width: 50%;
 }
