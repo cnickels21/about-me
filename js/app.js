@@ -165,8 +165,8 @@ question7();
 
 var output = alert('Yes! I have been to Maine, Florida, Colorado, Ireland, Germany, and Holland.');
 
-
 alert('Thank you for your time. Your total score is ' + score + ' out of 7!');
 
 var userName = prompt('What is your preferred name?');
 alert('Hello ' + userName + ' and welcome to the journey I like to call \'Chasin\' Chase\'!');
+  
