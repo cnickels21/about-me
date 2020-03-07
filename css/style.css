@@ -1,8 +1,10 @@
 body {
     margin: 20px auto;
     width: 1200px;
-    background-image: url("../images/newApollo.jpg");
+    background-image: url("../images/adjusted.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 1.2em;
     line-height: 1.5;
 }
